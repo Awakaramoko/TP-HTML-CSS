@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: auto;
+    min-height: 10%;
+    background-color: #6D071A;
+    background-position: top right;
+    background-size: auto 95%;
+}
+
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    font-family: "JollyGood Sans Bold", serif; 
+    font-weight: 100px;
+    color: white;
+    font-size: 2rem;
+   
+}
+
+header > nav {
+    margin: 20px 0;
+
+}
+
+nav > a {
+    margin: 0 10px;
+    color: white;
+    font-size:larger ;
+    font-family: 'Lucida Sans', sans-serif;
+    text-decoration: none;
+    transition: color 0.8s ease;
+    text-transform: capitalize;
+
+}
+
+nav > a:hover {
+    color: rgb(128, 128, 128);
+}
+
+.column-image > img{
+    width: 100%;
+    height: auto;
+}
+
+.column-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.column-text > h1{
+    font-family: "JollyGood Sans Bold", serif ;
+    color: white;
+    transform: translate(0, -200%);
+    font-size: 3rem;
+}
+
+.column-text > button{
+        background-color: #6D071A; 
+        border: 2px solid black;
+        color: white; 
+        border-radius: 30px; 
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 10px 150px;
+        cursor: 18px; 
+}
+
+
+ .articles > h2{
+    position: absolute;
+    text-align: center;
+    font-family: "JollyGood Sans Bold", serif ;
+    color: green;
+    margin: 20px 0; 
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.articles > article{
+    width: 350px;
+}
+
+article{
+    width: 500px;
+    text-align: left;
+    margin: 70px;
+    padding: 20px;
+}
+
+article > img {
+    
+    width: 200px ;
+    height: 100px;
+}
+
+article > h3 {
+    font-family: "JollyGood Sans Bold", serif ;
+    color: green;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+article p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.services{
+    background-color: #6D071A;
+}
+
+.services > h2{
+    text-align: center;
+    font-family: "JollyGood Sans Bold", serif ;
+    color: white;
+    margin: 20px 0; 
+}
+
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.contacts > h2 { 
+   align-self: center;
+    text-align: center; 
+    font-family: "JollyGood Sans Bold", serif ;
+    color: green;
+    margin: 10px 0; 
+    align-self: flex-start;
+}
+
+.contact{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2% 5%;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.5rem;
+    color: green;
+}
+
+.contacts > .contact{
+    padding-right: 50px;
+}
+
+.location{
+    min-width: 80px;
+    height: auto;
+    align-items: flex-end;
+}
+
+footer{
+    width: 100%;
+    background: #6D071A;
+    font-family: "JollyGood Sans Bold", serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
